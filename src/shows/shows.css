@@ -4,17 +4,14 @@
 
 .show {
   padding: 0 1ch;
+  color:rgb(255, 255, 255);
 }
 
 .show:not(:last-child) {
-  border-right: 1px solid white;
+  border-right: 1px solid rgb(245, 244, 244);
 }
 
-.show:hover,
-.show.selected {
-  cursor: pointer;
-  text-decoration: underline;
-}
+
 
 .show-details {
   display: grid;

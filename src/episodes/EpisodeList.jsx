@@ -7,6 +7,7 @@ export default function EpisodeList({
   selectedEpisode,
   setSelectedEpisode,
 }) {
+  console.log(episodes);
   return (
     <section className="episodes">
       <h2>{name}</h2>

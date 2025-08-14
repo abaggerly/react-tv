@@ -1,4 +1,5 @@
 import "./episodes.css";
+import { tvShows } from "../shows/data";
 
 /** Details about the selected episode */
 export default function EpisodeDetails({ episode }) {
